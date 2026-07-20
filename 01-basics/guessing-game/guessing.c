@@ -8,6 +8,12 @@ int main()
     printf("---------------------------\n");
 
     int secretNumber = 42;
+    int guess;
 
-    printf("The secret number is %d. Shhhhhh \n", secretNumber);
+    printf("What's your guess? ");
+
+    // reads input from the user.
+    scanf("%d", &guess);
+
+    printf("Your guess was: %d", guess);
 }

@@ -16,4 +16,13 @@ int main()
     scanf("%d", &guess);
 
     printf("Your guess was: %d", guess);
+
+    if (secretNumber == guess)
+    {
+        printf("Well done! You guessed it!");
+    }
+    else
+    {
+        printf("Wrong guess!");
+    }
 }

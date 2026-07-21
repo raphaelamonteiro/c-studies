@@ -3,7 +3,10 @@
 This repository documents my journey learning the C programming language, from the fundamentals to more advanced concepts. It serves as a personal study log and a collection of practical exercises and projects.
 
 <div align="center">
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF2dGEwbm15ZG9rN3d1MWZ4emdjYzJmbWRuamwyMjB1NHlhamJwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/dcANMEanwDsrUR1QS1/giphy.gif">
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF2dGEwbm15ZG9rN3d1MWZ4emdjYzJmbWRuamwyMjB1NHlhamJwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/dcANMEanwDsrUR1QS1/giphy.gif" alt="Cute bunny">
+
+**🐰 Learning C one step at a time.**
+
 </div>
 
 ## 🎯 Goals
@@ -28,12 +31,13 @@ This repository documents my journey learning the C programming language, from t
 ├── 07-memory
 ├── 08-files
 ├── 09-data-structures
-├── 10-projects
 └── README.md  ← you are here
 
 ```
 
 ## 🧩 Development Environment
+
+I use **Visual Studio Code** as my code editor and **GCC** as my C compiler.
 
 My local environment is configured to compile and run C programs directly from my machine.
 
@@ -71,15 +75,17 @@ A simple terminal-based game where the player tries to guess a secret number. Th
 - [ ] 07 - Memory Management
 - [ ] 08 - File Handling
 - [ ] 09 - Data Structures
-- [ ] 10 - Projects
 
-## Future Projects
+## 🤍 Future Projects
 
-- Contact Manager
-- Linked List
-- Stack and Queue
-- Binary Tree
+Projects will be developed as independent repositories:
+
+- Satellite Telemetry Simulator
+- Flight Computer Simulator
+- Rover Controller Simulator
 - Memory Allocator Simulator
+- Orbital Mechanics Simulator
+- Mini Operating System Components
 
 ---
 

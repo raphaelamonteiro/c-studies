@@ -1,0 +1,29 @@
+# 🧮 Guessing Game
+
+A simple terminal-based number guessing game written in C.
+
+## Features
+
+- Prompts the player to guess a secret number
+- Informs whether the guess is too high or too low
+- Congratulates the player when the correct number is guessed
+
+## Concepts Practiced
+
+- Variables and data types
+- User input (`scanf`)
+- Conditional statements (`if`/`else`)
+- Comparison operators
+- Basic program structure
+
+## Build
+
+```bash
+gcc guessing.c -o guessing
+```
+
+## Run
+
+```bash
+./guessing
+```

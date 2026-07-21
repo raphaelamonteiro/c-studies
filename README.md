@@ -1,20 +1,25 @@
-# C Studies
+# 💻 C Studies
 
 This repository documents my journey learning the C programming language, from the fundamentals to more advanced concepts. It serves as a personal study log and a collection of practical exercises and projects.
 
-## Goals
+<div align="center">
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF2dGEwbm15ZG9rN3d1MWZ4emdjYzJmbWRuamwyMjB1NHlhamJwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/dcANMEanwDsrUR1QS1/giphy.gif">
+</div>
 
-* Learn the fundamentals of the C programming language.
-* Understand memory management and pointers.
-* Implement common data structures and algorithms.
-* Develop practical projects.
-* Build a solid foundation for embedded systems and modern C++.
+## 🎯 Goals
 
-## Repository Structure
+- Learn the fundamentals of the C programming language.
+- Understand memory management and pointers.
+- Implement common data structures and algorithms.
+- Develop practical projects.
+- Build a solid foundation for embedded systems and modern C++.
+
+## 🗂️ Repository Structure
 
 ```text
 .
 ├── 01-basics
+│   └── guessing-game
 ├── 02-control-flow
 ├── 03-functions
 ├── 04-arrays
@@ -24,55 +29,58 @@ This repository documents my journey learning the C programming language, from t
 ├── 08-files
 ├── 09-data-structures
 ├── 10-projects
-└── README.md
+└── README.md  ← you are here
+
 ```
 
-## Development Environment
+## 🧩 Development Environment
 
-For my studies, I currently use **OnlineGDB** to write, compile, and run C programs in the browser.
+My local environment is configured to compile and run C programs directly from my machine.
 
-You can also compile the examples locally using GCC:
+## 🪛 Technologies & Tools
 
-```bash
-gcc file.c -o program
-./program
-```
+![Windows](https://img.shields.io/badge/Windows-393D7E?style=for-the-badge&logo=windows&logoColor=white)
+![C](https://img.shields.io/badge/C-393D7E?style=for-the-badge&logo=c&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-393D7E?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![GCC](https://img.shields.io/badge/GCC-393D7E?style=for-the-badge&logo=gnu&logoColor=white)
 
 ## Current Project
 
-### 🎯 Number Guessing Game
+### 🎲 Number Guessing Game
 
-A simple terminal-based game where the player tries to guess a randomly generated number. This project helps me practice:
+A simple terminal-based game where the player tries to guess a secret number. This project helps me practice:
 
-* Variables and data types
-* User input and output
-* Conditional statements (`if`/`else`)
-* Loops (`while`)
-* Basic program structure
+- Variables and data types
+- User input and output
+- Conditional statements (`if`/`else`)
+- Loops (`while`)
+- Basic program structure
 
-## Progress
+📂 Location: `01-basics/guessing-game`
+<br>
+📌 Status: In Progress
 
-* [ ] Basics
-* [ ] Control Flow
-* [ ] Functions
-* [ ] Arrays and Strings
-* [ ] Pointers
-* [ ] Structures
-* [ ] Memory Management
-* [ ] File Handling
-* [ ] Data Structures
-* [ ] Projects
+## 🌱 Progress
+
+- [x] 01 - Basics
+- [ ] 02 - Control Flow
+- [ ] 03 - Functions
+- [ ] 04 - Arrays and Strings
+- [ ] 05 - Pointers
+- [ ] 06 - Structures
+- [ ] 07 - Memory Management
+- [ ] 08 - File Handling
+- [ ] 09 - Data Structures
+- [ ] 10 - Projects
 
 ## Future Projects
 
-* Calculator
-* Contact Manager
-* Hangman Game
-* Linked List
-* Stack and Queue
-* Binary Tree
-* Memory Allocator Simulator
+- Contact Manager
+- Linked List
+- Stack and Queue
+- Binary Tree
+- Memory Allocator Simulator
 
 ---
 
-This repository is part of my software engineering learning journey, focused on strengthening my understanding of low-level programming, problem-solving, and writing clean, maintainable C code.
+This repository grows as I learn and is part of my software engineering journey, with a focus on strengthening my understanding of low-level programming, problem-solving, and writing clean, maintainable C code.

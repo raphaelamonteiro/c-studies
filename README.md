@@ -22,8 +22,10 @@ This repository documents my journey learning the C programming language, from t
 ```text
 .
 ├── 01-basics
-│   └── guessing-game
+│   ├── guessing-game
+│   └── README.md
 ├── 02-control-flow
+│   └── README.md
 ├── 03-functions
 ├── 04-arrays
 ├── 05-pointers
@@ -31,7 +33,7 @@ This repository documents my journey learning the C programming language, from t
 ├── 07-memory
 ├── 08-files
 ├── 09-data-structures
-└── README.md  ← you are here
+└── README.md  # You're here
 
 ```
 

@@ -14,15 +14,24 @@ int main()
 
     // reads input from the user.
     scanf("%d", &guess);
+    printf("Your guess was: %d\n", guess);
 
-    printf("Your guess was: %d", guess);
+    int correct = (guess == secretNumber);
 
-    if (secretNumber == guess)
+    if (correct)
     {
-        printf("Well done! You guessed it!");
+        printf("Well done! You guessed it!\n");
     }
     else
     {
-        printf("Wrong guess!");
+        int high = (guess > secretNumber);
+        if (high)
+        {
+            printf("Your guess is too high!\n");
+        }
+        else
+        {
+            printf("Your guess is too low!\n");
+        }
     }
 }

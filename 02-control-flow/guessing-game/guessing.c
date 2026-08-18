@@ -2,7 +2,7 @@
 
 int main()
 {
-    // Header
+    // header
     printf("---------------------------\n");
     printf("Let's play a guessing game!\n");
     printf("---------------------------\n");

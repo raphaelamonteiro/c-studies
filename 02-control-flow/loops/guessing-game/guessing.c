@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define AttemptsLeft 5
+
 int main()
 {
     // header
@@ -11,9 +13,9 @@ int main()
     int guess;
 
     // counter
-    for (int i = 1; i <= 3; i++)
+    for (int i = 1; i <= AttemptsLeft; i++)
     {
-        printf("Guess: %d of 3 \n", i);
+        printf("Guess: %d of %d \n", i, AttemptsLeft);
         printf("What's your guess? ");
 
         // reads input from the user.
@@ -26,7 +28,10 @@ int main()
         if (correct)
         {
             printf("Well done! You guessed it! \n");
-            printf("Play again, you're a good player!");
+            printf("Play again, you're a good player! \n");
+
+            // stop the for
+            break;
         }
         else
         {

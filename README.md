@@ -23,15 +23,24 @@ This repository documents my journey learning the C programming language, from t
 .
 ├── 01-basics
 │   ├── guessing-game
+│   │
 │   └── README.md
+│
 ├── 02-control-flow
+│   ├── if-else
+│   ├── guessing-game
+│   │
+│   ├── loops
+│   ├── guessing-game
+│   │
 │   └── README.md
+│
 ├── 03-functions
-├── 04-arrays
+├── 04-arrays-and-strings
 ├── 05-pointers
-├── 06-structs
-├── 07-memory
-├── 08-files
+├── 06-structures
+├── 07-memory-management
+├── 08-file-handling
 ├── 09-data-structures
 └── README.md  # You're here
 
@@ -62,14 +71,14 @@ A simple terminal-based game where the player tries to guess a secret number. Th
 - Loops (`while`)
 - Basic program structure
 
-📂 Location: `01-basics/guessing-game`
+📂 Location: `02-control-flow/loops/guessing-game`
 <br>
 📌 Status: In Progress
 
 ## 🌱 Progress
 
 - [x] 01 - Basics
-- [ ] 02 - Control Flow
+- [x] 02 - Control Flow
 - [ ] 03 - Functions
 - [ ] 04 - Arrays and Strings
 - [ ] 05 - Pointers

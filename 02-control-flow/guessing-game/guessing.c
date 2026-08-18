@@ -20,7 +20,8 @@ int main()
 
     if (correct)
     {
-        printf("Well done! You guessed it!\n");
+        printf("Well done! You guessed it! \n");
+        printf("Play again, you're a good player!");
     }
     else
     {
